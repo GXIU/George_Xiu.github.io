@@ -4,7 +4,7 @@
     
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Fanfiction, Graphs, and PageRank - colah's blog</title>
+        <title>我见过的好课 - George's blog</title>
         
         <link rel="stylesheet" href="../../fonts/Serif/cmun-serif.css" />
         <link rel="stylesheet" href="../../fonts/Serif-Slanted/cmun-serif-slanted.css" />
@@ -44,7 +44,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-49811703-1', 'colah.github.io');
+  ga('create', 'UA-49811703-1', 'https://gxiu.github.io/George_Xiu.github.io/');
   ga('require', 'linkid', 'linkid.js');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
@@ -66,14 +66,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand active" href="../../" id="home">colah's blog</a>
+                        <a class="navbar-brand active" href="../../" id="home">George's blog</a>
                     </div>
                     <!--normal header-->
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="../../"><span class="glyphicon glyphicon-pencil"></span>  Blog</a></li>
-                            <li><a href="../../about.html"><span class="glyphicon glyphicon-user"></span>  About</a></li>
-                            <li><a href="../../contact.html"><span class="glyphicon glyphicon-envelope"></span>  Contact</a></li>
+                            <li><a href="../../"><span class="glyphicon glyphicon-pencil"></span>  博客</a></li>
+                            <li><a href="../../about.html"><span class="glyphicon glyphicon-user"></span>  关于我</a></li>
+                            <li><a href="../../contact.html"><span class="glyphicon glyphicon-envelope"></span>  联系方式</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -84,10 +84,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1>Fanfiction, Graphs, and PageRank</h1>
+                            <h1>我见过的好课</h1>
                             <div id="body">
                                 <div class="info">
-    <p style="font-family:CMSS; font-size:130%">Posted on July  6, 2014</p>
+    <p style="font-family:CMSS; font-size:130%">Posted on June 24, 2020</p>
     <p style="font-family:CMS; font-style:italic"><a href="../../posts/tags/math.html">math</a>, <a href="../../posts/tags/fanfiction.html">fanfiction</a>, <a href="../../posts/tags/graphs.html">graphs</a>, <a href="../../posts/tags/visualization.html">visualization</a></p>
     <!--
         by Chris Olah
@@ -95,7 +95,7 @@
 </div>
 </br>
 
-<p>On a website called fanfiction.net, users write millions of stories about their favorite stories. They have diverse opinions about them. They love some stories, and hate others. The opinions are noisy, and it’s hard to see the big picture.</p>
+<p>2020寒假开始有很多时间可以看看自己喜欢的在线课程。时间确是一直很紧的，不过现在还是个有好奇心的阶段。</p>
 <p>With tools from mathematics and some helpful software, however, we can visualize the underlying structure.</p>
 <div class="bigcenterimgcontainer">
 <img src="img/graph-HP-ships-labeled.png" alt style>
@@ -112,11 +112,13 @@ Graph of Harry Potter Fanfiction, colored by ship
 <p><strong>Story Rankings</strong>: <a href="pagerank/hp.html">Harry Potter</a>, <a href="pagerank/naruto.html">Naruto</a>, <a href="pagerank/twi.html">Twilight</a></p>
 <p><strong>Story Recommendations</strong>: <a href="recs/hp.html">Harry Potter</a>, <a href="recs/nar.html">Naruto</a>, <a href="recs/twi.html">Twilight</a></p>
 <p>And of course, you might skim below to see the pretty pictures!</p>
-<h3 id="introduction">Introduction</h3>
-<p>Fanfiction is a wide-spread phenomenon where fans of different works write derivative stories. This ranges from young children writing their first stories about their favorite fictional characters, to professional-quality stories written by aspiring novelists. Many such stories are posted to websites where they are read by a large audience and commented on. The largest such website is <a href="https://www.fanfiction.net/">fanficiton.net</a>.</p>
-<p>The sheer amount of fanfiction out there is rather staggering. The total number of stories on fanfiction.net exceeds six million. Harry Potter stories account for around 14% of these, followed by Naruto (around 7%) and Twilight (around 4%) (<a href="http://ffnresearch.blogspot.com/2010/07/fanfictionnet-story-totals.html">FFN Research</a>). The majority of these stories have very little in the way of readership, but popular stories can have a large number of readers.</p>
-<p>Some research was done into the demographics of fanfiction.net users and other topics by <a href="http://ffnresearch.blogspot.com/">FFN Research</a>. They found that 78% of fanfiction.net authors who joined in 2010 identified as female. Further, around 80% of users who report their age are between 13 and 17.</p>
-<p>A lot of other interesting research and analysis has been done on the blogs <a href="http://destinationtoast.tumblr.com/stats">Destination: Toast!</a> and <a href="http://toastystats.tumblr.com/">TOASTYSTATS</a>.</p>
+
+<h3 id="RMP">Random Matrix Theory</h3>
+<p>
+        Random Matrices: Theory and Practice by Pierpaolo Vivo. 随机矩阵论，<a href="https://www.ictp.it">ICTP</a>的课程，<a href="https://www.bilibili.com/video/BV1DW411A7bc?from=search&seid=9838726156547358342">链接</a>
+</p>
+
+
 <h3 id="basic-methods">Basic Methods</h3>
 <p>In addition to allowing users to post stories they write, fanfiction.net allows authors to “favorite” stories they like. Looking at which stories tend to be favorited by the same users gives us a way to understand connections between stories.</p>
 <div class="floatrightimgcontainer">
