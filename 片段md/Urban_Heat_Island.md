@@ -23,8 +23,41 @@ Manoli, G., Fatichi, S., Schläpfer, M. *et al.* Magnitude of urban heat islands
 
 
 
+### 城市变暖的全球趋势
+
+研究对象：夏季平均每天的城市-乡村表面温度差 $\Delta T_s$. 夏季的原因：UHI的强度和危害都是最大的时候，同时也是降水主要产生影响的时间段。
+
+**结果：**
+
+1. $\Delta T_s$和平均年降水的非线性关系。
+
+   - 这篇文章 Strong contributions of local background climate to urban heat islands. *Nature* **511**, 216–219 (2014) 中预测了一个局部平均年降水与UHI的线性相关关系，
+
+   ![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-019-1512-9/MediaObjects/41586_2019_1512_Fig1_HTML.png)
+
 
 
 ## Role of City Texture in Urban Heat Islands at Nighttime
 
 城市热岛是一种气候现象，可以导致城市相比于乡村气温的增加。本文研究了UHI与城市几何的关系。利用一个热辐射标度律模型，结合了多年的*城乡温度差*和*建筑足迹*数据，对于
+
+
+
+
+
+
+
+## [The footprint of urban heat island effect in 302 Chinese cities: Temporal trends and associated factors](https://www.sciencedirect.com/science/article/pii/S0048969718345285)
+
+
+
+
+
+## [Urban heat islands in China enhanced by haze pollution](https://www.nature.com/articles/ncomms12509)
+
+
+
+
+
+## [Disproportionately higher exposure to urban heat in lower-income neighborhoods: a multi-city perspective](https://iopscience.iop.org/article/10.1088/1748-9326/ab3b99/pdf)
+

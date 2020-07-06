@@ -14,3 +14,9 @@
 
 - 疾病的区域扩张：Grenfell, B., Bjørnstad, O. & Kappey, J. Travelling waves and spatial hierarchies in measles epidemics. *Nature* **414,** 716–723 (2001). https://doi.org/10.1038/414716a
 
+
+
+
+
+### [Invasion dynamics of epidemic with the Allee effect](https://www.sciencedirect.com/science/article/abs/pii/S0303264711000542)
+
